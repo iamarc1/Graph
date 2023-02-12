@@ -8,6 +8,8 @@ public:
             }
         }
     }
+    //space--> o(n) 
+    // time--> o(n) + o(n+2e) har ek pe dfs can go till components
     int findCircleNum(vector<vector<int>>& isConnected) {
         int n=isConnected.size();
         vector<int> adj[n];
